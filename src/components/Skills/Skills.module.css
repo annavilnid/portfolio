@@ -1,0 +1,15 @@
+.skills {
+    min-height: 100vh;
+    background-color: #272727;
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.skills_container {
+    color: cornsilk;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
