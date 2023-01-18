@@ -10,6 +10,12 @@
 .skills_container {
     color: cornsilk;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 500px) {
+    .skills_container {
+        flex-direction: row;
+    }
 }

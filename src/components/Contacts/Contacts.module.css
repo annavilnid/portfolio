@@ -17,7 +17,7 @@
 .contacts__input {
     margin: 0 0 40px;
     font-size: 1rem;
-    width: 45%;
+    width: 100%;
     min-height: 40px;
     background-color: #333;
     padding: 0.2rem 1rem 0;
@@ -44,4 +44,10 @@
     background-color: #000;
     color: cornsilk;
     border: none;
+}
+
+@media screen and (min-width: 740px) {
+    .contacts__input {
+        width: 45%;
+    }
 }

@@ -9,7 +9,7 @@ type ProjectPropsType = {
 function Project({logo, header, description}: ProjectPropsType) {
   return (
     <div className={s.project}>
-      <img src={logo}/>
+      <img className={s.project__icon} src={logo}/>
       <h3>{header}</h3>
       <p>{description}</p>
     </div>

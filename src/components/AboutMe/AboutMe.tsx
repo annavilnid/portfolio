@@ -14,7 +14,7 @@ function AboutMe() {
       <div className={style.aboutme__container}>
         <h1 className={style.aboutme__header  + ' ' + style.aboutme__header_yellow}>
           frontend {' '}
-          <span className={style.aboutme__header  + ' ' + style.aboutme__header_yellow}>
+          <span className={style.aboutme__header  + ' ' + style.aboutme__header_yellow + ' ' + style.aboutme__header_long}>
           {/* Style will be inherited from the parent element */}
           {/*  <Typewriter /!* Props *!/ />*/}
             <Typewriter

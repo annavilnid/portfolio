@@ -1,7 +1,14 @@
 .skill {
-    width: 30%;
+    margin: 0 auto 20px;
+    width: 90%;
 }
 
 .skill__logo {
-    max-height: 144px;
+    height: 144px;
+}
+
+@media screen and (min-width: 500px) {
+    .skill {
+        width: 30%;
+    }
 }

@@ -8,7 +8,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     z-index: -1;
 }
@@ -31,6 +31,7 @@
 /*}*/
 
 .aboutme__wrapper {
+    padding: 0 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -62,9 +63,24 @@
 }
 
 .aboutme__container {
-    width: 100%;
+    min-height: 110px;
+    margin: 0 10px;
     display: flex;
     justify-content: center;
     z-index: 1;
 }
 
+.aboutme__header_long {
+    min-width: 100%;
+    display: block;
+}
+
+@media screen and (min-width: 672px) {
+    .aboutme {
+        align-items: center;
+    }
+
+    .aboutme__header_long {
+        display: inline;
+    }
+}

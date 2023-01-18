@@ -10,9 +10,14 @@
 }
 
 .footer__link {
-    margin: 0 30px;
+    margin: 0 25px;
     max-height: 50px;
     border: 1px solid #f3ca2f;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.footer__link:hover {
+    opacity: 0.5;
 }
 
 .footer__copyright {
@@ -21,6 +26,7 @@
 }
 
 .footer__icons8 {
+    color: #f3ca2f;
     margin: 0;
     padding: 0;
 }
