@@ -1,0 +1,8 @@
+@import '../../utils/SCSS/variableStyles';
+
+.portfolio {
+    height: fit-content;
+    color: $whiteColor;
+    @include flex(row, space-evenly, stretch);
+    flex-wrap: wrap;
+}

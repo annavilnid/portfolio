@@ -1,0 +1,44 @@
+@import '../../utils/SCSS/variableStyles';
+
+.project {
+    @include indents(0 0 20px, 2.14rem 1.928rem);
+    width: 90vw;
+    height: fit-content;
+    transition: opacity 0.5s ease-in-out;
+    border: 1px solid $whiteColor;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    &:hover {
+        border: 1px solid $yellowColor;
+        background-color: $yellowColor;
+        .project__title, {
+            color: $blackColor;
+        }
+        .project__description {
+            color: $darkGrayColor;
+        }
+    }
+    @media screen and (min-width: 500px) {
+        width: 40vw;
+    }
+    .project__icon {
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .project__title {
+        min-height: 55px;
+        @include font(600, 1.571rem, 1.1, 0);
+        @include indents(2.6rem 0, 0);
+    }
+    .project__description {
+        @include font(400, 1rem, 1.1, .025em);
+        @include indents(2.6rem 0 0, 0);
+        color: $textGrayColor;
+    }
+}

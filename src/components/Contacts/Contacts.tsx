@@ -1,16 +1,14 @@
-import React, { useRef } from 'react';
+import React, {FormEvent, useRef} from 'react';
 import emailjs from 'emailjs-com';
-import s from './Contacts.module.css'
-import Subtitle from "../Subtitle/Subtitle";
+import s from './Contacts.module.scss'
+import AnimatedButton from "../AnimatedButton/AnimatedButton";
 
 const Contacts = () => {
-  const form: any = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  console.log(process.env.REACT_APP_SERVICE_ID)
-
-  const sendEmail = (e: any) => {
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
+    if (form.current == null) return;
     emailjs.sendForm(process.env.REACT_APP_SERVICE_ID || '', process.env.REACT_APP_TEMPLATE_ID || '', form.current, process.env.REACT_APP_PUBLIC_KEY || '')
       .then((result: any) => {
         console.log(result.text);
@@ -22,29 +20,25 @@ const Contacts = () => {
   return (
     <div className={s.contacts}>
       <form ref={form} onSubmit={sendEmail} className={s.contacts__form}>
-        {/*<label>Name</label>*/}
         <input
+          className={s.contacts__input}
           type='text'
           name='user_name'
-          className={s.contacts__input}
           placeholder='Name'/>
-        {/*<label>Email</label>*/}
         <input
           type='email'
-          name='user_email'
           className={s.contacts__input}
+          name='user_email'
           placeholder='Email'
         />
-        {/*<label>Message</label>*/}
         <textarea
-          name='message'
           className={s.contacts__textarea}
+          name='message'
           placeholder='Message'
         />
-        <input
-          type='submit'
-          value='Send'
-          className={s.contacts__button}
+        <AnimatedButton
+            type='submit'
+            value='Send'
         />
       </form>
     </div>

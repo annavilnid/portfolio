@@ -1,0 +1,51 @@
+@import '../../utils/SCSS/variableStyles';
+
+.contacts {
+    @include flex(row, center, center);
+
+    .contacts__form {
+        width: 90%;
+        @include flex(row, space-between, stretch);
+        flex-wrap: wrap;
+
+        .contacts__input {
+            @include indents(0 0 40px, 0.2rem 1rem 0);
+            width: 100%;
+            min-height: 40px;
+            font-size: 1rem;
+            color: $whiteColor;
+            background-color: $lightGrayColor;
+            outline: none;
+            border: none;
+            &::placeholder {
+                font-family: $fontFamily;
+            }
+            @media screen and (min-width: 740px) {
+                width: calc((100% - 40px) / 2);
+            }
+        }
+
+        .contacts__textarea {
+            @include indents(0 0 40px, 1rem 1rem 0);
+            font-size: 1rem;
+            width: 100%;
+            min-height: 195px;
+            background-color: #333;
+            outline: none;
+            border: none;
+            color: $whiteColor;
+            resize: none;
+            &::placeholder {
+                font-family: $fontFamily;
+            }
+        }
+
+        .contacts__button {
+            min-width: 90px;
+            min-height: 45px;
+            background-color: $blackColor;
+            color: $whiteColor;
+            border: none;
+        }
+    }
+}

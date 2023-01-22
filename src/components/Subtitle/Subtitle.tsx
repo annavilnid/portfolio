@@ -1,4 +1,4 @@
-import s from './Subtitle.module.css';
+import s from './Subtitle.module.scss';
 
 type SubtitlePropsType = {
   subtitle: string

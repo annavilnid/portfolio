@@ -1,0 +1,8 @@
+@import '../../utils/SCSS/variableStyles';
+
+.skills {
+    box-sizing: border-box;
+    color: $whiteColor;
+    @include flex(row, space-evenly, stretch);
+    flex-wrap: wrap;
+}

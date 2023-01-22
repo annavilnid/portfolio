@@ -1,28 +1,15 @@
-import s from './Skills.module.css';
+import s from './Skills.module.scss';
 import Skill from '../Skill/Skill';
-import reactLogo from '../../images/icon-react.svg'
-import TypescriptLogo from '../../images/icon-typescript.svg'
-import ReduxLogo from '../../images/icon-redux.svg'
-import {testText} from "../../testText";
+import {skillsContent} from '../../utils/content/TextContent';
 
 function Skills() {
   return (
-      <div className={s.skills_container}>
-        <Skill
-          logo={reactLogo}
-          header={'React'}
-          description={testText}
-        />
-        <Skill
-          logo={TypescriptLogo}
-          header={'TypeScript'}
-          description={testText}
-        />
-        <Skill
-          logo={ReduxLogo}
-          header={'Redux'}
-          description={testText}
-        />
+      <div className={s.skills}>
+        {skillsContent.map( s =>
+          <Skill key={s.id}
+            skill={s}
+          />
+        )}
       </div>
   );
 }

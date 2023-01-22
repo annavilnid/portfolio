@@ -1,0 +1,57 @@
+@import '../../utils/SCSS/variableStyles';
+
+.aboutme {
+    height: 100vh;
+    @include image();
+    background-image: url('../../images/photo.jpg');
+    @include flex(column, center, start);
+    position: relative;
+    z-index: -1;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        z-index: 0;
+        min-width: 320px;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+    }
+    @media screen and (min-width: 672px) {
+        align-items: center;
+    }
+
+    .aboutme__wrapper {
+        @include indents(0, 0 10px);
+        @include flex(row, flex-start, stretch);
+        flex-wrap: wrap;
+    }
+
+    .aboutme__container {
+        min-height: 110px;
+        @include indents(0 10px, 0);
+        @include flex(row, center, stretch);
+        z-index: 1;
+    }
+
+    .aboutme__header {
+        @include indents(0, 0);
+        @include font(600, 2.571rem, 1.33333, -.025em);
+        text-align: start;
+        z-index: 1;
+    }
+
+    .aboutme__header_yellow {
+        color: $yellowColor;
+    }
+
+    .aboutme__header_long {
+        min-width: 100%;
+        display: block;
+        @media screen and (min-width: 672px) {
+            display: inline;
+        }
+    }
+}

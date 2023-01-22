@@ -1,11 +1,11 @@
 import React from 'react';
 import Subtitle from '../Subtitle/Subtitle';
-import s from './Section.module.css'
+import s from './Section.module.scss'
 
 type SectionPropsType = {
+  id: string
   subtitle: string
   children: React.ReactNode
-  id: string
 }
 
 function Section({id, subtitle, children}: SectionPropsType) {
@@ -14,7 +14,7 @@ function Section({id, subtitle, children}: SectionPropsType) {
       <Subtitle
         subtitle={subtitle}
       />
-      <div className="section-content">
+      <div className={s.section__content}>
         {children}
       </div>
     </div>

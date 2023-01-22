@@ -1,17 +1,17 @@
-import s from './Skill.module.css'
+import s from './Skill.module.scss';
+import {SkillType} from '../../utils/content/TextContent';
 
 type SkillPropsType = {
-  logo: string
-  header: string
-  description: string
+  skill: SkillType
 }
 
-function Skill({logo, header, description}: SkillPropsType) {
+function Skill({skill}: SkillPropsType) {
+
   return (
     <div className={s.skill}>
-      <img className={s.skill__logo} src={logo}/>
-      <h3>{header}</h3>
-      <p>{description}</p>
+      <img className={s.skill__logo} src={skill.logo} />
+      <h4 className={s.skill__title}>{skill.title}</h4>
+      <p className={s.skill__description}>{skill.description}</p>
     </div>
   );
 }

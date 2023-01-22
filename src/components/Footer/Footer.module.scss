@@ -1,0 +1,44 @@
+@import '../../utils/SCSS/variableStyles';
+
+.footer {
+    @include indents(0,0);
+    background-color: $darkGrayColor;
+
+    .footer__links {
+        @include flex(row, center, stretch);
+        flex-wrap: wrap;
+
+        .footer__link {
+            @include indents(0 10px, 0);
+            height: 50px;
+            width: 50px;
+            color: $yellowColor;
+            border: 1px solid $yellowColor;
+            transition: opacity 0.5s ease-in-out;
+            &:hover {
+                opacity: 0.5;
+            }
+            @media screen and (min-width: 409px) {
+                @include indents(0 25px, 0);
+            }
+        }
+    }
+
+    .footer__copyright {
+        @include indents(10px 0,0);
+        @include font(400, 1rem, 1.1, .025em);
+        color: $blackColor
+    }
+
+    .footer__icons8 {
+        @include indents(0 0 10px 0, 0);
+        display: inline-block;
+        @include font(400, 1, 1, 0);
+        color: $yellowColor;
+        text-decoration: none;
+        transition: opacity 0.5s ease-in-out;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}

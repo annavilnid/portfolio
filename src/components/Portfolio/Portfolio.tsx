@@ -1,22 +1,15 @@
-import s from './Portfolio.module.css';
+import s from './Portfolio.module.scss';
 import Project from '../Project/Project';
-import logoSocialNetwork from '../../images/icon-social-network.png';
-import logoCounter from '../../images/icon-counter.png';
-import {testText} from "../../testText";
+import {portfolioContent} from '../../utils/content/TextContent';
 
 function Portfolio() {
+
   return (
-      <div className={s.portfolio__container}>
-        <Project
-          logo={logoSocialNetwork}
-          header={'Social Network'}
-          description={testText}
-        />
-        <Project
-          logo={logoCounter}
-          header={'Counter'}
-          description={testText}
-        />
+      <div className={s.portfolio}>
+        {portfolioContent.map( p =>
+          <Project key={p.id}
+            project={p}/>
+        )}
       </div>
   );
 }

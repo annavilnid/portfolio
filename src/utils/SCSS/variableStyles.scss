@@ -1,0 +1,38 @@
+$whiteColor: #fffafa;
+$grayColor: #464646;
+$yellowColor: #f3ca2f;
+$lightGrayColor: #333;
+$darkGrayColor: #272727;
+$textGrayColor: #ccc;
+$blackColor: #000;
+
+$fontFamily: 'Poppins', sans-serif;
+
+@mixin font($fontWeight, $fontSize, $lineHeight, $letter-spacing) {
+  color: $whiteColor;
+  text-transform: uppercase;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  letter-spacing: $letter-spacing;
+}
+
+@mixin flex($direction, $content, $items) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $content;
+  align-items: $items;
+}
+
+@mixin indents($margin, $padding) {
+  margin: $margin;
+  padding: $padding;
+}
+
+@mixin image() {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $grayColor;
+}
+

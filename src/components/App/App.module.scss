@@ -1,0 +1,12 @@
+@import '../../utils/SCSS/variableStyles';
+
+.app {
+  font-family: $fontFamily;
+  text-align: center;
+  min-width: 320px;
+  width: 100%;
+}
+
+body {
+  background-color: $darkGrayColor
+}

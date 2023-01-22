@@ -1,0 +1,6 @@
+@import '../../utils/SCSS/variableStyles';
+
+.subtitle {
+    @include indents(0, 20px 0);
+    @include font(600, 2.571rem, 1.33333, -.025em);
+}

@@ -1,22 +1,18 @@
-import studentPhoto from '../../images/student-photo.jpg'
-import style from './AboutMe.module.css'
+import s from './AboutMe.module.scss'
 import { Typewriter } from 'react-simple-typewriter'
-// import 'react-simple-typewriter/dist/index.css'
 
 function AboutMe() {
   return (
-    <div className={style.aboutme}>
-      <div className={style.aboutme__wrapper}>
-        <h2 className={style.aboutme__header  + ' ' + style.aboutme__header_yellow}>Hello&nbsp;</h2>
-        <h2 className={style.aboutme__header}>My name is&nbsp;</h2>
-        <h1 className={style.aboutme__header}>Anna Vilnid.</h1>
+    <div className={s.aboutme}>
+      <div className={s.aboutme__wrapper}>
+        <h2 className={`${s.aboutme__header} ${s.aboutme__header_yellow}`}>Hello&nbsp;</h2>
+        <h2 className={s.aboutme__header}>My name is&nbsp;</h2>
+        <h1 className={s.aboutme__header}>Anna Vilnid.</h1>
       </div>
-      <div className={style.aboutme__container}>
-        <h1 className={style.aboutme__header  + ' ' + style.aboutme__header_yellow}>
+      <div className={s.aboutme__container}>
+        <h1 className={`${s.aboutme__header} ${s.aboutme__header_yellow}`}>
           frontend {' '}
-          <span className={style.aboutme__header  + ' ' + style.aboutme__header_yellow + ' ' + style.aboutme__header_long}>
-          {/* Style will be inherited from the parent element */}
-          {/*  <Typewriter /!* Props *!/ />*/}
+          <span className={`${s.aboutme__header} ${s.aboutme__header_yellow} ${s.aboutme__header_long}`}>
             <Typewriter
               loop
               cursor
@@ -25,15 +21,11 @@ function AboutMe() {
               deleteSpeed={50}
               delaySpeed={3000}
               words={['DEVELOPER']}
-              // onLoop={(loopCount) =>
-              //   console.log(`Just completed loop ${loopCount}`)
-              // }
             />
         </span>
         </h1>
       </div>
       </div>
-    // </div>
   );
 }
 

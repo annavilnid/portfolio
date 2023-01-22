@@ -5,21 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4402500-66b9-4f3f-ab76-5da067e2de27" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AnimatedButton/AnimatedButton.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AnimatedButton/AnimatedButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/App.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Project/Project.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Section/Section.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Skill/Skill.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Subtitle/Subtitle.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icon-counter-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icon-social-network-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/SCSS/variableStyles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/content/TextContent.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/folder/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe/AboutMe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Project/Project.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/Project.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/Project.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/Project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skill/Skill.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Section.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skill/Skill.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Subtitle/Subtitle.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Subtitle/Subtitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Subtitle/Subtitle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-counter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icon-counter-main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icon-social-network.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icon-social-network-main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/folder/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/folder/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/folder/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testText.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/folder/testText.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +70,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
-        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -70,13 +109,24 @@
       <recent name="$PROJECT_DIR$/src/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/App" />
+      <recent name="$PROJECT_DIR$/src/folder" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/components/Button" />
       <recent name="$PROJECT_DIR$/src/images" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/Skill" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -89,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -108,7 +159,8 @@
       <workItem from="1673375529072" duration="3721000" />
       <workItem from="1673454057298" duration="7614000" />
       <workItem from="1673623018531" duration="24401000" />
-      <workItem from="1673941912131" duration="34220000" />
+      <workItem from="1673941912131" duration="37018000" />
+      <workItem from="1674195969690" duration="58626000" />
     </task>
     <servers />
   </component>
@@ -125,5 +177,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Section/Section.tsx</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

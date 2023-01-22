@@ -1,0 +1,32 @@
+@import '../../utils/SCSS/variableStyles';
+
+.nav {
+  min-width: 300px;
+  @include flex(row, space-between, stretch);
+  list-style-type: none;
+  @media screen and (min-width: 409px) {
+    width: 400px;
+  }
+  @media screen and (min-width: 609px) {
+    width: 590px;
+  }
+
+  .nav__link {
+    @include indents(0, 0);
+    @include font(600, 0.85rem, 1, -.025em);
+    color: $whiteColor;
+    transition: opacity 0.5s ease-in-out;
+    border: 3px solid rgba(0, 0, 0, 0);
+    &:hover {
+      opacity: 0.5;
+    }
+    @media screen and (min-width: 409px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  .nav__active {
+    border-bottom: 3px solid $whiteColor;
+  }
+}
+
