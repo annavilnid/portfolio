@@ -1,7 +1,20 @@
 {
   "background": {
-    "color": "#282c34"
+    "color": {
+      "value": "#f3ca2f"
+    }
   },
+  "fullScreen": {
+    "enable": false,
+    "zIndex": -100
+  },
+  "style": {
+    "position": "absolute",
+    "height": "500px",
+    "top": "0",
+    "left": "0"
+  },
+  "fpsLimit": 60,
   "interactivity": {
     "events": {
       "onClick": {
@@ -15,58 +28,59 @@
       "resize": true
     },
     "modes": {
-      "bubble": {
-        "distance": 400,
-        "duration": 2,
-        "opacity": 0.8,
-        "size": 40
-      },
       "push": {
-        "quantity": 4
+        "quantity": 1
       },
       "repulse": {
-        "distance": 200,
-        "duration": 0.4
+        "distance": 100,
+        "duration": 0.04
       }
     }
   },
   "particles": {
     "color": {
-      "value": "#ffffff"
+      "value": "#fff"
     },
     "links": {
       "color": "#ffffff",
-      "distance": 150,
+      "distance": 15,
       "enable": true,
-      "opacity": 0.5,
-      "width": 1
+      "opacity": 0.1
     },
     "collisions": {
-      "enable": true
+      "enable": false
     },
     "move": {
-      "direction": "none",
+      "direction": 90,
       "enable": true,
-      "outMode": "bounce",
+      "outModes": {
+        "default": "bounce",
+        "bottom": "out",
+        "left": "out",
+        "right": "out",
+        "top": "out"
+      },
       "random": false,
-      "speed": 6,
+      "speed": 0.5,
       "straight": false
     },
     "number": {
       "density": {
-        "enable": true
+        "enable": true,
+        "area": 800
       },
-      "value": 80
+      "value": 30
     },
     "opacity": {
-      "value": 0.5
+      "value": 2
     },
     "shape": {
       "type": "circle"
     },
     "size": {
       "random": true,
-      "value": 5
+      "value": 50
     }
-  }
+  },
+  "detectRetina": true
 }

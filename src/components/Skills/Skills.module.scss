@@ -1,8 +1,17 @@
 @import '../../utils/SCSS/variableStyles';
 
 .skills {
-    box-sizing: border-box;
+    position: relative;
+    box-sizing: content-box;
     color: $whiteColor;
     @include flex(row, space-evenly, stretch);
     flex-wrap: wrap;
 }
+
+
+
+
+
+
+
+
