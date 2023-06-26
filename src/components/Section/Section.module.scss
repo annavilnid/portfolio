@@ -2,7 +2,6 @@
 
 .section {
     padding-top: 70px;
-    background-color: $darkGrayColor;
     @include flex(column, flex-start, stretch);
     &:nth-child(2) h3 {
         margin-bottom: 0;

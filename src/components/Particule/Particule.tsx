@@ -1,16 +1,16 @@
-import { useCallback, useEffect } from "react";
+import {useCallback, useEffect} from "react";
 import Particles from "react-tsparticles";
-import type { Container, Engine } from "tsparticles-engine";
-import { loadFull } from "tsparticles";
+import type {Container, Engine} from "tsparticles-engine";
+import {loadFull} from "tsparticles";
 import particlesOptions from "../../particles.json";
-import { ISourceOptions } from "tsparticles-engine";
-import s from './Particule.module.scss';
+import {ISourceOptions} from "tsparticles-engine";
+
 
 interface ParticuleProps {
     sectionId: string;
 }
 
-const Particule: React.FC<ParticuleProps> = ({ sectionId }) => {
+const Particule: React.FC<ParticuleProps> = ({sectionId}) => {
     const particlesInit = useCallback(async (engine: Engine) => {
         // Инициализация tsParticles
         await loadFull(engine);
@@ -43,19 +43,12 @@ const Particule: React.FC<ParticuleProps> = ({ sectionId }) => {
     }, [sectionId]);
 
     return (
-        <div id={sectionId} className={s.test}>
-            <h2>First</h2>
-            <h2>Second</h2>
-            <h2>Third</h2>
-            <div className={s.test__container}>
-                <Particles
-                    id="tsparticles"
-                    init={particlesInit}
-                    loaded={particlesLoaded}
-                    options={particlesOptions as ISourceOptions}
-                />
-            </div>
-        </div>
+        <Particles
+            id="tsparticles"
+            init={particlesInit}
+            loaded={particlesLoaded}
+            options={particlesOptions as ISourceOptions}
+        />
     );
 };
 

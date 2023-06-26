@@ -1,8 +1,9 @@
 @import '../../utils/SCSS/variableStyles';
 
 .footer {
+    position: relative;
+    z-index: 1;
     @include indents(0,0);
-    background-color: $darkGrayColor;
 
     .footer__links {
         @include flex(row, center, stretch);
